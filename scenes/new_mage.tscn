@@ -1,0 +1,252 @@
+[gd_scene load_steps=54 format=3 uid="uid://dwxqsr6iktc0n"]
+
+[ext_resource type="Texture2D" uid="uid://dd6be6ren7tur" path="res://assets/Characters/MAGE/Idle/idle1.png" id="1_6fvqe"]
+[ext_resource type="Script" path="res://scripts/new_mage.gd" id="1_ydglu"]
+[ext_resource type="Texture2D" uid="uid://imjoeuqr1cro" path="res://assets/Characters/MAGE/Attack/attack1.png" id="2_oqug8"]
+[ext_resource type="Texture2D" uid="uid://l3j53kdej1xf" path="res://assets/Characters/MAGE/Idle/idle2.png" id="2_xsyfy"]
+[ext_resource type="Texture2D" uid="uid://bnrb1arshvjkv" path="res://assets/Characters/MAGE/Attack/attack2.png" id="3_1latn"]
+[ext_resource type="Texture2D" uid="uid://bnaux0tkhffdx" path="res://assets/Characters/MAGE/Idle/idle3.png" id="3_t8smf"]
+[ext_resource type="Texture2D" uid="uid://dbtshtyl6mqt5" path="res://assets/Characters/MAGE/Attack/attack3.png" id="4_4q2so"]
+[ext_resource type="Texture2D" uid="uid://crd2ebghufaa0" path="res://assets/Characters/MAGE/Idle/idle4.png" id="4_h6aps"]
+[ext_resource type="Texture2D" uid="uid://bto57c6rbxxte" path="res://assets/Characters/MAGE/Idle/idle5.png" id="5_qv5vg"]
+[ext_resource type="Texture2D" uid="uid://cpf5ctpwx2re6" path="res://assets/Characters/MAGE/Attack/attack4.png" id="5_uasjh"]
+[ext_resource type="Texture2D" uid="uid://dnwv7f8ff4xj0" path="res://assets/Characters/MAGE/Idle/idle6.png" id="6_bv2do"]
+[ext_resource type="Texture2D" uid="uid://b2m26hs7owola" path="res://assets/Characters/MAGE/Attack/attack5.png" id="6_f4o4j"]
+[ext_resource type="Texture2D" uid="uid://4oa3cdyjeu3l" path="res://assets/Characters/MAGE/Idle/idle7.png" id="7_2a3oe"]
+[ext_resource type="Texture2D" uid="uid://caolc5w6r3d4p" path="res://assets/Characters/MAGE/Attack/attack6.png" id="7_gui3c"]
+[ext_resource type="Texture2D" uid="uid://ba180r6eo6a85" path="res://assets/Characters/MAGE/Idle/idle8.png" id="8_acqqh"]
+[ext_resource type="Texture2D" uid="uid://do3jgiw8glngu" path="res://assets/Characters/MAGE/Attack/attack7.png" id="8_ph2bx"]
+[ext_resource type="Texture2D" uid="uid://bbb3a80ginfo1" path="res://assets/Characters/MAGE/Death/death1.png" id="9_ko86y"]
+[ext_resource type="Texture2D" uid="uid://psr5aach4t1y" path="res://assets/Characters/MAGE/Idle/idle9.png" id="9_nl7ic"]
+[ext_resource type="Texture2D" uid="uid://c7rsbg0m6rgry" path="res://assets/Characters/MAGE/Death/death2.png" id="10_ftn8c"]
+[ext_resource type="Texture2D" uid="uid://4gf1telg28n4" path="res://assets/Characters/MAGE/Idle/idle10.png" id="10_qxn4m"]
+[ext_resource type="Texture2D" uid="uid://cxi22kco0k3fa" path="res://assets/Characters/MAGE/Death/death3.png" id="11_lvpkd"]
+[ext_resource type="Texture2D" uid="uid://c1hs2bgmnmsmn" path="res://assets/Characters/MAGE/Idle/idle11.png" id="11_sxnnw"]
+[ext_resource type="Texture2D" uid="uid://fpm0oqd7swb2" path="res://assets/Characters/MAGE/Death/death4.png" id="12_7khn4"]
+[ext_resource type="Texture2D" uid="uid://ceokepae0t4ly" path="res://assets/Characters/MAGE/Idle/idle12.png" id="12_otat5"]
+[ext_resource type="Texture2D" uid="uid://ettrl7fepn4y" path="res://assets/Characters/MAGE/Death/death5.png" id="13_0xknd"]
+[ext_resource type="Texture2D" uid="uid://dbv6tiw54x1nx" path="res://assets/Characters/MAGE/Idle/idle13.png" id="13_ivci4"]
+[ext_resource type="Texture2D" uid="uid://bi4ji7x1esuud" path="res://assets/Characters/MAGE/Death/death6.png" id="14_3k8al"]
+[ext_resource type="Texture2D" uid="uid://biysixhow7nvc" path="res://assets/Characters/MAGE/Idle/idle14.png" id="14_sgx7r"]
+[ext_resource type="Texture2D" uid="uid://4jtv3ah25uyw" path="res://assets/Characters/MAGE/Death/death7.png" id="15_4cp1a"]
+[ext_resource type="Texture2D" uid="uid://d172p6a5bcx7n" path="res://assets/Characters/MAGE/Run/run1.png" id="15_wakts"]
+[ext_resource type="Texture2D" uid="uid://bdg052lfnov5h" path="res://assets/Characters/MAGE/Death/death8.png" id="16_0ejug"]
+[ext_resource type="Texture2D" uid="uid://b4p2kffukg1e2" path="res://assets/Characters/MAGE/Run/run2.png" id="16_x32w1"]
+[ext_resource type="Texture2D" uid="uid://hsum516wrvkf" path="res://assets/Characters/MAGE/Death/death9.png" id="17_bubxh"]
+[ext_resource type="Texture2D" uid="uid://rakb3lnlvbm4" path="res://assets/Characters/MAGE/Run/run3.png" id="17_hbphj"]
+[ext_resource type="Texture2D" uid="uid://2f7dk03w03bx" path="res://assets/Characters/MAGE/Death/death10.png" id="18_1i6em"]
+[ext_resource type="Texture2D" uid="uid://dfxne8afiokxn" path="res://assets/Characters/MAGE/Run/run4.png" id="18_x3xke"]
+[ext_resource type="Texture2D" uid="uid://hm006efl6ahl" path="res://assets/Characters/MAGE/Run/run5.png" id="19_3r6wo"]
+[ext_resource type="Texture2D" uid="uid://lc2bomkxcr8j" path="res://assets/Characters/MAGE/Hurt/hurt1.png" id="19_ehhe2"]
+[ext_resource type="Texture2D" uid="uid://dfsqxladv7jjh" path="res://assets/Characters/MAGE/Run/run6.png" id="20_nvdnr"]
+[ext_resource type="Texture2D" uid="uid://bcdbrgkjfmapg" path="res://assets/Characters/MAGE/Hurt/hurt2.png" id="20_um3sk"]
+[ext_resource type="Texture2D" uid="uid://d3mxgoeak20hr" path="res://assets/Characters/MAGE/Hurt/hurt3.png" id="21_gsdxq"]
+[ext_resource type="Texture2D" uid="uid://cqqup2dq5n4r8" path="res://assets/Characters/MAGE/Run/run7.png" id="21_qffnn"]
+[ext_resource type="Texture2D" uid="uid://cgv2p5gqddaal" path="res://assets/Characters/MAGE/Run/run8.png" id="22_2qntc"]
+[ext_resource type="Texture2D" uid="uid://baaucoisjjr73" path="res://assets/Characters/MAGE/Hurt/hurt4.png" id="22_bn1kh"]
+[ext_resource type="Texture2D" uid="uid://nrffry5dealq" path="res://assets/Characters/MAGE/Jump/jump1.png" id="37_jfbqf"]
+[ext_resource type="Texture2D" uid="uid://df0ysswm1i74w" path="res://assets/Characters/MAGE/Jump/jump2.png" id="38_nbm7n"]
+[ext_resource type="Texture2D" uid="uid://cotgyd37uxq54" path="res://assets/Characters/MAGE/Jump/jump3.png" id="39_568ox"]
+[ext_resource type="Texture2D" uid="uid://b61no51uoyjoy" path="res://assets/Characters/MAGE/Jump/jump4.png" id="40_cbm64"]
+[ext_resource type="Texture2D" uid="uid://300t1t16webg" path="res://assets/Characters/MAGE/Jump/jump5.png" id="41_ifk58"]
+[ext_resource type="Texture2D" uid="uid://eu61gsto5qnh" path="res://assets/Characters/MAGE/Jump/jump6.png" id="42_j8it3"]
+[ext_resource type="Texture2D" uid="uid://dmcxxyge82ssv" path="res://assets/Characters/MAGE/Jump/jump7.png" id="43_2qknj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_k04u4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_oqug8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1latn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4q2so")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_uasjh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_f4o4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_gui3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ph2bx")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_ko86y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ftn8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_lvpkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_7khn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_0xknd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_3k8al")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_4cp1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_0ejug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_bubxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_1i6em")
+}],
+"loop": true,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_ehhe2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_um3sk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_gsdxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_bn1kh")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_6fvqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_xsyfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_t8smf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_h6aps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_qv5vg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_bv2do")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2a3oe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_acqqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_nl7ic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_qxn4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_sxnnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_otat5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ivci4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_sgx7r")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_jfbqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_nbm7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_568ox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_cbm64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ifk58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_j8it3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_2qknj")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_wakts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_x32w1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_hbphj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_x3xke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_3r6wo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_nvdnr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_qffnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_2qntc")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bbdaj"]
+radius = 14.0357
+
+[node name="new_mage" type="CharacterBody2D"]
+script = ExtResource("1_ydglu")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, -28)
+sprite_frames = SubResource("SpriteFrames_k04u4")
+animation = &"run"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -14)
+shape = SubResource("CircleShape2D_bbdaj")
